@@ -21,7 +21,7 @@
 1. Создай проект Supabase.
 2. В SQL Editor выполни содержимое файла `supabase/schema.sql`.
 3. В настройках проекта открой **Authentication → Providers → Email** и оставь включённым вход по почте. В **Authentication → URL Configuration** укажи адрес опубликованного дашборда как Site URL, чтобы ссылки подтверждения почты возвращали в приложение.
-4. В **Project Settings → API Keys** скопируй **Project URL** и **Publishable key**.
+4. В **Project Settings → API Keys** скопируй **Project URL** и **Publishable key**. Для проекта из текущей ссылки Project URL: `https://nchctohbsusctrtojlng.supabase.co` (ссылка на `supabase.com/dashboard/...` — это адрес панели управления, не API).
 5. Открой дашборд, нажми значок облака, введи эти два значения и сохрани настройки.
 6. Создай аккаунт с почтой и паролем в самом дашборде. На другом устройстве укажи тот же URL и Publishable key и войди в тот же аккаунт.
 
